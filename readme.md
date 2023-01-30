@@ -12,14 +12,6 @@ yarn add react-native-lockscreen-view
 npm i react-native-lockscreen-view
 ```
 
-## Expo support
-
-- ✅ You can use this library with [Development Builds](https://docs.expo.dev/development/introduction/). No config plugin is required.
-
-  - After installing the library, run [expo prebuild](https://docs.expo.dev/workflow/prebuild/) command to rebuild the native app.
-
-- ❌ This library can't be used in the "Expo Go" app because it requires [custom native code](https://docs.expo.dev/workflow/customizing/).
-
 ## Usage
 
 - Checkout example/ directory
@@ -51,3 +43,11 @@ const Passcode = (props) => {
   );
 };
 ```
+
+## Expo support
+
+- ✅ You can use this library with [Development Builds](https://docs.expo.dev/development/introduction/). No config plugin is required.
+
+  - After installing the library, run [expo prebuild](https://docs.expo.dev/workflow/prebuild/) command to rebuild the native app.
+
+- ❌ This library can't be used in the "Expo Go" app because it requires [custom native code](https://docs.expo.dev/workflow/customizing/).
