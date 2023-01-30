@@ -1,6 +1,6 @@
 ## WIP
 
-View to be appeared in app switcher when app goes to background. Right now, only works on iOS.
+Control view that should be shown in app switcher when app goes to background. Right now, only works on iOS.
 
 ## Installation
 
