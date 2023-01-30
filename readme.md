@@ -4,11 +4,19 @@ View to be appeared in app switcher when app goes to background. Right now, only
 
 ## Installation
 
+```
+yarn add react-native-lockscreen-view
+// or
+npm i react-native-lockscreen-view
+```
+
 ## Usage
 
 - Checkout example/ folder
 
 ```jsx
+import { ReactNativeLockscreenView } from "react-native-lockscreen-view";
+
 export default function App() {
   const [visible, setVisible] = useState(true);
 
