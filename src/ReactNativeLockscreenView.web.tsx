@@ -1,11 +1,7 @@
-import * as React from 'react';
+import { ReactNativeLockscreenViewProps } from "./ReactNativeLockscreenView.types";
 
-import { ReactNativeLockscreenViewProps } from './ReactNativeLockscreenView.types';
-
-export default function ReactNativeLockscreenView(props: ReactNativeLockscreenViewProps) {
-  return (
-    <div>
-      <span>{props.name}</span>
-    </div>
-  );
+export default function ReactNativeLockscreenView(
+  props: ReactNativeLockscreenViewProps
+) {
+  return props.children;
 }

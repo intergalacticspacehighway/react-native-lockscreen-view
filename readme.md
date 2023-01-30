@@ -1,6 +1,8 @@
 ## WIP
 
-- View to be appeared in app switcher when app goes to background. Right now, only works on iOS.
+View to be appeared in app switcher when app goes to background. Right now, only works on iOS.
+
+## Installation
 
 ## Usage
 
