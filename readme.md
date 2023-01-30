@@ -30,7 +30,8 @@ export default function App() {
   );
 }
 
-const Passcode = ({ hide }) => {
+const Passcode = (props) => {
+  const { hide } = props;
   return (
     <Modal visible>
       <View style={styles.container}>
