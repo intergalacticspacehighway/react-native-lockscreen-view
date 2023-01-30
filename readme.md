@@ -1,6 +1,6 @@
 ## WIP
 
-Control view that should be shown in app switcher when app goes to background. Right now, only works on iOS.
+Control view that should be shown in app switcher when app goes to background. Only works on iOS for now.
 
 https://user-images.githubusercontent.com/23293248/215400813-25c4986c-2b78-46c4-b8b3-e9fc7b9f49fb.mov
 
@@ -12,10 +12,17 @@ yarn add react-native-lockscreen-view
 npm i react-native-lockscreen-view
 ```
 
+## Expo support
+
+- ✅ You can use this library with [Development Builds](https://docs.expo.dev/development/introduction/). No config plugin is required.
+
+  - After installing the library, run [expo prebuild](https://docs.expo.dev/workflow/prebuild/) command to rebuild the native app.
+
+- ❌ This library can't be used in the "Expo Go" app because it requires [custom native code](https://docs.expo.dev/workflow/customizing/).
+
 ## Usage
 
-- Checkout example/ folder
-
+- Checkout example/ directory
 
 ```jsx
 import { ReactNativeLockscreenView } from "react-native-lockscreen-view";
